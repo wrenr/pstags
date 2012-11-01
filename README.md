@@ -95,6 +95,9 @@ Verbose output
 
 **TODO:** Make the script use the `argparse` python module to make it a proper command line script with more options.
 
+
+## Troubleshooting
+
 ### Does it actually work?
 
 This is a simple script I put together, and it hasn't been exhaustively tested in different environments. It works for the file sorting tasks I've given it, and has some exception handling.
@@ -106,8 +109,6 @@ Tested with the following setup:
 * OS X
 
 This **may** work on other OSes and previous versions of Python, but they have not been tested. Proceed at your own risk.
-
-## Troubleshooting
 
 ### Why does it say "File does not exist?"
 
