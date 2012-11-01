@@ -30,6 +30,7 @@ As of Nov. 1st, 2012, you'll also need a Mac OS X or Unix-based computer to run 
 
 For example: `tag-sniff.json`
 
+```json
     {
         "directories": [
             "/Users/wren/Downloads/",
@@ -37,15 +38,18 @@ For example: `tag-sniff.json`
             "/Users/wren/Documents/unsorted/"
         ]
     }
+```
 
 Declare your list of tags in another JSON config file called `tag-maps.json`.  You can view this example at `tag-maps.json.default` in the Git repo. The JSON key is the tag, and the JSON value is the destination directory:
 
-    {
-        "errands": "/User/wren/Documents/errands/",
-        "pic-cool": "/Users/wren/Pictures/cool/",
-        "work": "/Users/wren/Documents/work/",
-        "mus-theory": "/Users/wren/Music/theory/"
-    }
+```json
+{
+    "errands": "/User/wren/Documents/errands/",
+    "pic-cool": "/Users/wren/Pictures/cool/",
+    "work": "/Users/wren/Documents/work/",
+    "mus-theory": "/Users/wren/Music/theory/"
+}
+```
 
 ### Saving Files with Tags
 
