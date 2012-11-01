@@ -40,11 +40,11 @@ You roll up your sleeves and slog through the mess, and after two grueling hours
 
 ## <a id="what-do-i-need-to-run-it"></a>What do I need to run it?
 
-I've only tested this with Python 2.7.3. If you have an earlier version of Python it might work, and if it doesn't you can upgrade.
+I've only tested this with **Python 2.7.3**. If you have an earlier version of Python it might work, and if it doesn't you can upgrade.
 
 You need to know how to run Python scripts from the command line ([Windows](http://docs.python.org/2/faq/windows.html#how-do-i-run-a-python-program-under-windows), [Mac OS X](http://docs.python.org/2/using/mac.html)), and also know how to make [a simple JSON-formatted file](http://www.w3schools.com/json/default.asp) for configuration.
 
-As of Nov. 1st, 2012, you'll also need a Mac OS X or Unix-based computer to run it, I haven't tested it with anything else.
+As of Nov. 1st, 2012, you'll also need a **Mac OS X** or Unix-based environment to run it, I haven't tested it with anything else.
 
 ## <a id="how-do-i-use-it"></a>How do I use it?
 
