@@ -39,13 +39,13 @@ As of Nov. 1st, 2012, you'll also need a Mac OS X or Unix-based computer to run 
 For example: `tag-sniff.json`
 
 ```json
-    {
-        "directories": [
-            "/Users/wren/Downloads/",
-            "/Users/wren/Desktop/",
-            "/Users/wren/Documents/unsorted/"
-        ]
-    }
+{
+    "directories": [
+        "/Users/wren/Downloads/",
+        "/Users/wren/Desktop/",
+        "/Users/wren/Documents/unsorted/"
+    ]
+}
 ```
 
 Declare your list of tags in another JSON config file called `tag-maps.json`.  You can view this example at `tag-maps.json.default` in the Git repo. The JSON key is the tag, and the JSON value is the destination directory:
