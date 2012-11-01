@@ -5,11 +5,24 @@ Save your files with a simple tag prefix, run this script, and your files are in
 
 **This script is pre-alpha. Use at your own risk.**
 
+## What does it do?
+
+Your Desktop folder is so full, you forgot what your Desktop picture looks like. Your Downloads folder is a messy pile of thousands -
+
+You roll up your sleeves and slog through the mess, and after two grueling hours you've finally moved every single file to its rightful place. If only you had a quick, simple way to stop that from *ever* happening again...
+
+**Python Simple TAG Sorter (pSTAGS)** to the rescue! Save your files with a simple tag prefix, run the **pSTAGS** script, and your files are in their proper places.
+
+### Before ...
+
+**/Users/wren/Downloads/pic-cool->**dog-on-a-skateboard-wearing-sunglasses.jpg
+
+### After!
+
+**/Users/wren/Pictures/cool/**dog-on-a-skateboard-wearing-sunglasses.jpg
+
 **Table of Contents**  *generated with [DocToc](http://doctoc.herokuapp.com/)*
 
-- [What does it do?](#what-does-it-do)
-    - [Before ...](#before-)
-    - [After!](#after)
 - [What do I need to run it?](#what-do-i-need-to-run-it)
 - [How do I use it?](#how-do-i-use-it)
     - [One-time Setup](#one-time-setup)
@@ -24,25 +37,6 @@ Save your files with a simple tag prefix, run this script, and your files are in
     - [What if the file I tagged already exists?](#what-if-the-file-i-tagged-already-exists)
 - [What's next for pSTAGS?](#whats-next-for-pstags)
 - [License and Warranty](#license-and-warranty)
-
-<a id="what-does-it-do"></a>
-## What does it do?
-
-Your Desktop folder is so full, you forgot what your Desktop picture looks like. Your Downloads folder is a messy pile of thousands -
-
-You roll up your sleeves and slog through the mess, and after two grueling hours you've finally moved every single file to its rightful place. If only you had a quick, simple way to stop that from *ever* happening again...
-
-**Python Simple TAG Sorter (pSTAGS)** to the rescue! Save your files with a simple tag prefix, run the **pSTAGS** script, and your files are in their proper places.
-
-<a id="before-"></a>
-### Before ...
-
-**/Users/wren/Downloads/pic-cool->**dog-on-a-skateboard-wearing-sunglasses.jpg
-
-<a id="after"></a>
-### After!
-
-**/Users/wren/Pictures/cool/**dog-on-a-skateboard-wearing-sunglasses.jpg
 
 <a id="what-do-i-need-to-run-it"></a>
 ## What do I need to run it?
