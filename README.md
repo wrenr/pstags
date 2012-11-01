@@ -21,7 +21,9 @@ You roll up your sleeves and slog through the mess, and after two grueling hours
 
 **/Users/wren/Pictures/cool/**dog-on-a-skateboard-wearing-sunglasses.jpg
 
-**Table of Contents**  *generated with [DocToc](http://doctoc.herokuapp.com/)*
+
+## **Table of Contents**
+*(generated with [DocToc](http://doctoc.herokuapp.com/))*
 
 - [What do I need to run it?](#what-do-i-need-to-run-it)
 - [How do I use it?](#how-do-i-use-it)
