@@ -144,6 +144,11 @@ The script will bring up an input prompt confirming if you want to overwrite the
 
 Later on I may add a unit testing suite. I'll also make the script use the [argparse python module](http://docs.python.org/dev/library/argparse.html) so it has a few more command line options.
 
+Some other ideas:
+
+**Logging**: Writing output to a log file.
+
+**Cron**: Enabling support for scheduling with a crontab. Need to consider possibilities of file overwriting if so, since that uses a prompt. Could add a .bak suffix to the original file without overwriting.
 
 ## <a id="license-and-warranty"></a>License and Warranty
 
