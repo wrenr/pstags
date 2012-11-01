@@ -14,6 +14,14 @@ You roll up your sleeves and slog through the mess, and after two grueling hours
 
 **Python Simple TAG Sorter (pSTAGS)** to the rescue! Save your files with a simple tag prefix, run the **pSTAGS** script, and your files are in their proper places.
 
+### Before ...
+
+**/Users/wren/Downloads/pic-cool->**dog-on-a-skateboard-wearing-sunglasses.jpg
+
+### After!
+
+**/Users/wren/Pictures/cool/**dog-on-a-skateboard-wearing-sunglasses.jpg
+
 ## What do I need to run it?
 
 I've only tested this with Python 2.7.3. If you have an earlier version of Python it might work, and if it doesn't you can upgrade.
