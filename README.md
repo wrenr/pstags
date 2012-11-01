@@ -38,8 +38,7 @@ You roll up your sleeves and slog through the mess, and after two grueling hours
 - [What's next for pSTAGS?](#whats-next-for-pstags)
 - [License and Warranty](#license-and-warranty)
 
-<a id="what-do-i-need-to-run-it"></a>
-## What do I need to run it?
+## <a id="what-do-i-need-to-run-it"></a>What do I need to run it?
 
 I've only tested this with Python 2.7.3. If you have an earlier version of Python it might work, and if it doesn't you can upgrade.
 
@@ -47,10 +46,9 @@ You need to know how to run Python scripts from the command line ([Windows](http
 
 As of Nov. 1st, 2012, you'll also need a Mac OS X or Unix-based computer to run it, I haven't tested it with anything else.
 
-<a id="how-do-i-use-it"></a>
-## How do I use it?
-<a id="one-time-setup"></a>
-### One-time Setup
+## <a id="how-do-i-use-it"></a>How do I use it?
+
+### <a id="one-time-setup"></a>One-time Setup
 
 **pSTAGS** needs to know where to sniff for tagged files with a JSON configuration file. Make a new text file called `tag-sniff.json` that's in the same directory as the `pstags.py` script. Be sure that all of the directories exist on your file system. (If they don't, **pSTAGS** will warn you!) You can also view this example at `tag-sniff.json.default` in the Git repo.
 
@@ -76,8 +74,8 @@ Declare your list of tags in another JSON config file called `tag-maps.json`.  Y
     "mus-theory": "/Users/wren/Music/theory/"
 }
 ```
-<a id="saving-files-with-tags"></a>
-### Saving Files with Tags
+
+### <a id="saving-files-with-tags"></a>Saving Files with Tags
 
 When you save a file in one of your **pSTAGS** sniffed directories, save the filenames with this structure (no spaces):
 
@@ -95,8 +93,8 @@ Before running the **pSTAGS** script, your files will be sitting in your sniffed
     FILES BEFORE pSTAGS...
     /Users/wren/Downloads/pic-cool->dog-on-a-skateboard-wearing-sunglasses.jpg
     /Users/wren/Documents/work/unsorted/work->BossChristmasFlyer3MonthsTooEarly.doc
-<a id="running-the-pstags-script"></a>
-### Running the pSTAGS script
+
+### <a id="running-the-pstags-script"></a>Running the pSTAGS script
 
 Open up the command line. Navigate to the pstags directory and run `python pstags.py`.
 
@@ -105,47 +103,47 @@ Your files are now in the right places, with those clunky tags removed!
     FILES AFTER pSTAGS!
     /Users/wren/Documents/work/BossChristmasFlyer3MonthsTooEarly.doc
     /Users/wren/Pictures/cool/dog-on-a-skateboard-wearing-sunglasses.jpg
-<a id="script-arguments"></a>
-#### Script Arguments
+
+#### <a id="script-arguments"></a>Script Arguments
 
 `--verbose`
 Verbose output
 
 **TODO:** Make the script use the `argparse` python module to make it a proper command line script with more options.
 
-<a id="troubleshooting"></a>
-## Troubleshooting
-<a id="does-it-actually-work"></a>
-### Does it actually work?
+
+## <a id="troubleshooting"></a>Troubleshooting
+
+### <a id="does-it-actually-work"></a>Does it actually work?
 
 This is a simple script I put together, and it hasn't been exhaustively tested in different environments. It works for the file sorting tasks I've given it, and has some exception handling.
-<a id="what-are-the-system-requirements"></a>
-### What are the system requirements?
+
+### <a id="what-are-the-system-requirements"></a>What are the system requirements?
 Tested with the following setup:
 
 * Python 2.7.3
 * OS X
 
 This **may** work on other OSes and previous versions of Python, but they have not been tested. Proceed at your own risk.
-<a id="why-does-it-say-file-does-not-exist"></a>
-### Why does it say "File does not exist?"
+
+### <a id="why-does-it-say-file-does-not-exist"></a>Why does it say "File does not exist?"
 
 Create the `tag-sniff.json` and `tag-maps.json` files in the same directory as your `pstags.py` script. You can use the sample files `tag-sniff.json.default` and `tag-maps.json.default` as guides.
-<a id="what-if-i-move-the-directories-around"></a>
-### What if I move the directories around?
+
+### <a id="what-if-i-move-the-directories-around"></a>What if I move the directories around?
 
 When the script loads it scans all of the directories given to it and makes sure they all exist before proceeding. You'll have to manually update the `tag-maps.json` file if your directories change.
-<a id="what-if-the-file-i-tagged-already-exists"></a>
-### What if the file I tagged already exists?
+
+### <a id="what-if-the-file-i-tagged-already-exists"></a>What if the file I tagged already exists?
 
 The script will bring up an input prompt confirming if you want to overwrite the file before moving it to its new destination.
-<a id="whats-next-for-pstags"></a>
-## What's next for pSTAGS?
+
+## <a id="whats-next-for-pstags"></a>What's next for pSTAGS?
 
 Later on I may add a unit testing suite. I'll also make the script use the [argparse python module](http://docs.python.org/dev/library/argparse.html) so it has a few more command line options.
 
-<a id="license-and-warranty"></a>
-## License and Warranty
+
+## <a id="license-and-warranty"></a>License and Warranty
 
 This work is licensed under the Creative Commons Attribution 3.0 Unported License. To view a copy of this license, visit [http://creativecommons.org/licenses/by/3.0/](http://creativecommons.org/licenses/by/3.0/).
 
