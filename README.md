@@ -150,6 +150,8 @@ Some other ideas:
 
 **Cron**: Enabling support for scheduling with a crontab. Need to consider possibilities of file overwriting if so, since that uses a prompt. Could add a .bak suffix to the original file without overwriting.
 
+**Cheat Sheet**: A method to generate a cheat sheet for all of your defined tags inside a Markdown or HTML document. A quick reference like this could be very helpful if you have many tags.
+
 ## <a id="license-and-warranty"></a>License and Warranty
 
 This work is licensed under the Creative Commons Attribution 3.0 Unported License. To view a copy of this license, visit [http://creativecommons.org/licenses/by/3.0/](http://creativecommons.org/licenses/by/3.0/).
