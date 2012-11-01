@@ -1,5 +1,9 @@
 #!/usr/bin/env python
-
+#
+# pSTAGS Python Simple TAG Sorter
+# Author: Wren Reynolds
+# License: Creative Commons Attribution 3.0 Unported License
+# License URL: http://creativecommons.org/licenses/by/3.0/
 
 from os import chdir
 from os import path
