@@ -33,3 +33,4 @@ Thumbs.db
 #############
 tag-sniff.json
 tag-maps.json
+*.pyc
