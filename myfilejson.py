@@ -1,7 +1,9 @@
 #!/usr/bin/env python
 #
 # JSON File support module for pSTAGS
+#
 # Author: Wren Reynolds
+# Author URL: https://github.com/wrenr/
 # License: Creative Commons Attribution 3.0 Unported License
 # License URL: http://creativecommons.org/licenses/by/3.0/
 
