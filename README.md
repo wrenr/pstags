@@ -105,7 +105,7 @@ Create the `tag-sniff.json` and `tag-maps.json` files in the same directory as y
 
 When the script loads it scans all of the directories given to it and makes sure they all exist before proceeding. You'll have to manually update the `tag-maps.json` file if your directories change.
 
-### What if my file already exists?
+### What if the file I tagged already exists?
 
 The script will bring up an input prompt confirming if you want to overwrite the file before moving it to its new destination.
 
