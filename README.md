@@ -116,7 +116,7 @@ Verbose output
 
 ### <a id="does-it-actually-work"></a>Does it actually work?
 
-This is a simple script I put together, and it hasn't been exhaustively tested in different environments. It works for the file sorting tasks I've given it, and has some exception handling.
+Pretty much. This is a simple script I put together, and it hasn't been exhaustively tested in different environments. It works for the file sorting tasks I've given it, and has some exception handling.
 
 ### <a id="what-are-the-system-requirements"></a>What are the system requirements?
 Tested with the following setup:
